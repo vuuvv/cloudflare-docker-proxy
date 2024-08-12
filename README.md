@@ -12,7 +12,7 @@
 2. follow the instructions to fork and deploy
 3. update routes as you requirement
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-docker-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/vuuvv/cloudflare-docker-proxy)
 
 ## Routes configuration tutorial
 
@@ -30,11 +30,11 @@
    - add more records and modify the config as you need
    ```javascript
    const routes = {
-     "docker.libcuda.so": "https://registry-1.docker.io",
-     "quay.libcuda.so": "https://quay.io",
-     "gcr.libcuda.so": "https://k8s.gcr.io",
-     "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-     "ghcr.libcuda.so": "https://ghcr.io",
+     "docker.vuuvv.top": "https://registry-1.docker.io",
+     "quay.vuuvv.top": "https://quay.io",
+     "gcr.vuuvv.top": "https://k8s.gcr.io",
+     "k8s-gcr.vuuvv.top": "https://k8s.gcr.io",
+     "ghcr.vuuvv.top": "https://ghcr.io",
    };
    ```
 
